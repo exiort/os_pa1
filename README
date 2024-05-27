@@ -1,0 +1,13 @@
+pa1.sh is desired script in assignment 
+
+create_test_env.sh is a helper script that creates test env as:
+1-)golden.txt in same location with pa1.sh
+2-)Creates a submissions folder if not already exist
+3-)Creates 4 test bash scripts as required in assignment
+
+Usage of script as wanted in assignment, nothing extra special about usage.
+It can work any files accoring to scope in assignment, but in the test env I created all lines as integer
+
+Usage of create_test_env:
+$chmod +x create_test_env.sh (if not already executable)
+$./create_test_env 
